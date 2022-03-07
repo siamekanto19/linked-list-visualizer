@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+body input[type='number'] {
+  @apply focus:border-gray-800 focus:border-[2px] focus:ring-0;
+}
