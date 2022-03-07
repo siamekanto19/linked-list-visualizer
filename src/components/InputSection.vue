@@ -19,10 +19,17 @@ const appendOnEnterPress = (e: KeyboardEvent) => {
   }
 }
 const handleAppend = () => {
+  if (!appendValue.value) {
+    return
+  }
   appendTail(appendValue.value)
   appendValue.value = 0
 }
+
 const handlePrepend = () => {
+  if (!prependValue.value) {
+    return
+  }
   prependHead(prependValue.value)
   prependValue.value = 0
 }
