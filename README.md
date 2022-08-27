@@ -1,11 +1,20 @@
-# Vue 3 + Typescript + Vite
+# Linked List Visualizer made with Vue3 + Typescript + Tailwind CSS
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a very simple Linked List Visualizer built with Vue3 composition APIs and Typescript for type safety. Used Linked List Data Structure for the Data Models and Vue3 Recursive components to present it in the UI.
 
-## Recommended IDE Setup
+# Features implemented so far
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+- Append
+- Prepend
+- Searching with animations
+- Reverse
+- Save Linked Link Data in Browser's Local Storage
 
-## Type Support For `.vue` Imports in TS
+## Notes
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+While viewing the demo hosted in Netlify, it might warn that this is a `dangerous` website and you shouldn't visit it. But I can confirm that it is a false alarm. I think, your browser flags it as dangerous as it attemps to save fairly large amount of data in your local storage (Obviously upon your approval).
+
+## Screenshots
+
+<img width="1428" alt="Screenshot 2022-08-27 at 7 25 13 PM" src="https://user-images.githubusercontent.com/71663224/187032301-9a42645a-1612-4aa4-be92-26ccceccc347.png">
+
